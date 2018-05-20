@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
 
-  tasks:
+  tasks SYNTAX ERROR
   - name: ensure lighttpd is installed at the latest version
     apt:
       name: lighttpd
